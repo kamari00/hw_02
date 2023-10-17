@@ -43,7 +43,7 @@ def calculate_pi_multithread(size, num_threads):
 
     return (inside_circle / size) * 4
 
-points = int(input("Введіть кількість точок для обчислення: "))
+points = int(input("Введіть кількість точок для обчислення:  "))
 num_threads = int(input("Введіть кількість потоків: "))
 
 start_time = time.time()
